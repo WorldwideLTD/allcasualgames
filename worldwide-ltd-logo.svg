@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Globe Outer Sphere & Lat/Long Lines -->
+  <circle cx="50" cy="50" r="44" fill="none" stroke="url(#brandGradient)" stroke-width="4.5" />
+  <ellipse cx="50" cy="50" rx="44" ry="18" fill="none" stroke="url(#brandGradient)" stroke-width="3" stroke-dasharray="8 4" opacity="0.6" />
+  <ellipse cx="50" cy="50" rx="18" ry="44" fill="none" stroke="url(#brandGradient)" stroke-width="3" stroke-dasharray="8 4" opacity="0.6" />
+  <line x1="6" y1="50" x2="94" y2="50" stroke="url(#brandGradient)" stroke-width="3.5" />
+  <line x1="50" y1="6" x2="50" y2="94" stroke="url(#brandGradient)" stroke-width="3.5" />
+
+  <!-- Game Controller Center Emblem -->
+  <path d="M 28 36 C 22 36 18 42 16 52 C 14 62 18 70 24 70 C 29 70 34 62 38 56 L 62 56 C 66 62 71 70 76 70 C 82 70 86 62 84 52 C 82 42 78 36 72 36 Z" 
+        fill="url(#brandGradient)" />
+  
+  <!-- D-Pad Left -->
+  <path d="M 28 44 v 4 h -4 v 4 h 4 v 4 h 4 v -4 h 4 v -4 h -4 v -4 z" fill="#FFFFFF" />
+  
+  <!-- Action Buttons Right -->
+  <circle cx="68" cy="46" r="2.5" fill="#FFFFFF" />
+  <circle cx="74" cy="52" r="2.5" fill="#FFFFFF" />
+  <circle cx="62" cy="52" r="2.5" fill="#FFFFFF" />
+  <circle cx="68" cy="58" r="2.5" fill="#FFFFFF" />
+</svg>
